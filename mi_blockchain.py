@@ -26,4 +26,8 @@ class Blockchain:
         self.chain.append(block)
         return block           
 
+#funcion para imprimir el ultimo bloque de la cadena 
+
+def print_previous_block(self):
+    return self.chain[-1]
 
